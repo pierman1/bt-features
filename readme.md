@@ -30,7 +30,7 @@
   
   Als de feature niet beschikbaar is krijgt de eerste letter van het ``<p>`` element een margin-left van -1em. Waardoor de eerste letter ``1rem`` naar link verschuift. 
   
-  Edit: omdat dit niet gedoen
+  **Live demo:** https://pierman1.github.io/bt-features/feature-1/
   
   Bron: https://css-tricks.com/almanac/properties/h/hanging-punctuation/
   
@@ -80,6 +80,8 @@
 
 Op IE9 word de fallback afbeelding (svg) getoond, zie hieronder:
 
+**Live demo:** https://pierman1.github.io/bt-features/feature-2/
+
 ### Feature - 3 Video
 
 ![alt text](readme_images/f3.png)
@@ -87,6 +89,9 @@ Op IE9 word de fallback afbeelding (svg) getoond, zie hieronder:
 Als het video element niet gesupport word dan word er een afbeelding getoond als fallback, dit is het geval in de browser: Opera Mini.
 
 ![alt text](readme_images/f3-opera.png)
+
+  **Live demo:** https://pierman1.github.io/bt-features/feature-3/
+
 
 ### Feature 4 - SVG
 
@@ -97,6 +102,9 @@ Bron:
 
 - http://www.quirksmode.org/css/condcom.html
 - https://codepen.io/jeremychurch/pen/xkrgq
+
+  **Live demo:** https://pierman1.github.io/bt-features/feature-4/
+
 
 ### Feature 5 - JS | ES6 
 
@@ -114,6 +122,9 @@ function check() {
 
 ![alt text](readme_images/f5.png)
 
+  **Live demo:** https://pierman1.github.io/bt-features/feature-5/
+
+
 Bronnen:
 - http://stackoverflow.com/questions/29046635/javascript-es6-cross-browser-detection
 - http://stackoverflow.com/questions/29046635/javascript-es6-cross-browser-detection
@@ -128,5 +139,6 @@ Bronnen:
  
  Op het moment als LocalStorage niet beschikbaar is word de input van de gebruiker in een array opgeslagen.
  
+  **Live demo:** https://pierman1.github.io/bt-features/feature-6/
 
 
