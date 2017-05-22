@@ -30,7 +30,7 @@
   
   Als de feature niet beschikbaar is krijgt de eerste letter van het ``<p>`` element een margin-left van -1em. Waardoor de eerste letter ``1rem`` naar link verschuift. 
   
-  [Live demo](https://pierman1.github.io/bt-features/feature-1/)** 
+  **[Live demo](https://pierman1.github.io/bt-features/feature-1/)** 
   
   Bron: https://css-tricks.com/almanac/properties/h/hanging-punctuation/
   
