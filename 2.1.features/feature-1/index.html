@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hanging Punctation</title>
+
+    <style>
+
+
+        blockquote {
+            font-style: italic;
+            font-size: 2rem;
+            width: 80;
+            border-left: 2px solid pink;
+            padding: 10px 0;
+
+            background-color: red;
+        }
+
+        blockquote::first-letter {
+            margin-left: -1rem;
+        }
+
+
+        @supports (hanging-punctuation: first) {
+
+            blockquote {
+                hanging-punctuation: first;
+                background-color: green;
+            }
+
+            blockquote::first-letter {
+                margin: 0;
+            }
+
+        }
+
+        /*.no-punctuation:before {*/
+            /*content: '“';*/
+            /*position: absolute;*/
+            /*margin-left: -1rem;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+
+<blockquote>“Et harum quidem rerum facilis est et expedita distinction.</blockquote>
+<blockquote>Et harum quidem rerum facilis est et expedita distinction.</blockquote>
+
+
+</body>
+</html>
